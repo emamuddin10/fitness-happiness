@@ -1,0 +1,108 @@
+@media screen and (max-width:576px){
+    header,main,footer{
+        /* margin: 0 30px; */
+        padding: 0 30px;
+    }
+    .ham-berger{
+        display: block;
+    }
+    .nav-list{
+        display: none;
+    }
+
+  /* banner/////////////////// */
+  .banner{
+    flex-direction: column;
+  }
+  .banner-title{
+    font-size: 3rem;
+    color: aliceblue;
+   }
+   .workout{
+    top: 40%;
+    right: -20%;
+    transform: translate(-50%, -30%);
+   }
+
+  /* run///////////// */
+  .run-section{
+    flex-direction: column;
+  }
+  .run-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+/* HABBIT RES */
+.card-container{
+    grid-template-columns: repeat(1,1fr);
+    
+    justify-items: center;
+}
+
+/* SERVICE RES */
+.service-container{
+    flex-direction: column;
+}
+.service-section{
+  padding-bottom: 0px;
+}
+
+/* BMI res */
+.bmi-container{
+  flex-direction: column;
+  border-radius: 10px;
+ 
+ 
+}
+.bmi-bg{
+  border-radius: 10px;
+}
+.grid-container{
+  width: 350px;
+  grid-template-columns: repeat(1,1fr);
+  align-content: center;
+ 
+}
+#last-in{
+  grid-column: span 1;
+}
+.calculator-bmi{
+  padding: 30px 30px;
+}
+/* MEET OUR TEAM 
+ */
+
+ .team-container{
+
+  
+  grid-template-columns: repeat(1,1fr);
+  
+ 
+  /* grid-template-rows: repeat(2,1fr); */
+}
+.team-parent img{
+  height:100%;
+  width: 100%;
+ 
+}
+.team-section{
+  padding: 0 0 50px 0;
+}
+
+/* FOOTER */
+footer{
+  padding: 50px 30px;
+  
+}
+.footer-container{
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+}
+.foot-logo{
+  font-size: 3rem;
+}
+
+}
