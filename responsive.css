@@ -60,7 +60,7 @@
   border-radius: 10px;
 }
 .grid-container{
-  width: 350px;
+  width: 250px;
   grid-template-columns: repeat(1,1fr);
   align-content: center;
  
