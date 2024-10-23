@@ -244,6 +244,23 @@ h3{
     border-radius: 10px;
 }
 
+/* OUR SERVICE RES////////////////////////////////////////////// */
+.service-section{
+    padding: 50px 0;
+}
+.service-container{
+    display: flex;
+    font-display: row;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    padding-bottom:50px ;
+}
+.service-container img{
+  height: 200px;
+  width: 200px;
+  
+}
 /* BMI calculator////////////////////////////////////////////////////////////////////// */
 
 .bmi-section{
